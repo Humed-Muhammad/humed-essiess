@@ -35,7 +35,7 @@ const NavBar = ({ skillRef, aboutRef, workRef, contactRef }) => {
 
   return (
     <nav
-      className={`fixed w-full z-40 h-20 bg-gray-800 bg-opacity-75 flex items-center justify-between`}
+      className={`w-full z-40 h-20 bg-gray-800 bg-opacity-75 flex items-center justify-between`}
     >
       <motion.div className="px-10">
         <img
