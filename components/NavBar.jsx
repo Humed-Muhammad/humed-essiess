@@ -46,7 +46,7 @@ const NavBar = ({ skillRef, aboutRef, workRef, contactRef }) => {
       </motion.div>
       <motion.div
         animate={list ? { rotate: 180 } : { rotate: 0 }}
-        className="flex md:hidden w-12 h-12 mr-2 px-2 py-2 rounded-full"
+        className="flex bg-green-300 md:hidden w-12 h-12 mr-2 px-2 py-2 rounded-full"
       >
         <MenuIcon
           className={list ? "hidden" : "flex text-green-300 font-small"}
