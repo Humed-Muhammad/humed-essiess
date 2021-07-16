@@ -35,7 +35,7 @@ const NavBar = ({ skillRef, aboutRef, workRef, contactRef }) => {
 
   return (
     <nav
-      className={`w-full z-40 h-20 bg-gray-800 bg-opacity-75 flex items-center justify-between`}
+      className={`w-full fixed z-40 h-20 bg-gray-800 bg-opacity-75 flex items-center justify-between`}
     >
       <motion.div className="px-10">
         <img
@@ -46,7 +46,7 @@ const NavBar = ({ skillRef, aboutRef, workRef, contactRef }) => {
       </motion.div>
       <motion.div
         animate={list ? { rotate: 180 } : { rotate: 0 }}
-        className="flex bg-green-300 md:hidden w-12 h-12 mr-2 px-2 py-2 rounded-full"
+        className="flex md:hidden w-12 h-12 mr-2 px-2 py-2 rounded-full"
       >
         <MenuIcon
           className={list ? "hidden" : "flex text-green-300 font-small"}
