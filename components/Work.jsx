@@ -77,7 +77,6 @@ const Work = ({ workRef }) => {
             </a>
           </button>
         </motion.div>
-         <div className="flex flex-wrap justify-around items-center">
         <motion.div
           variants={child}
           className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
