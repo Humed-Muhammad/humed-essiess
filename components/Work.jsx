@@ -77,6 +77,32 @@ const Work = ({ workRef }) => {
             </a>
           </button>
         </motion.div>
+         <div className="flex flex-wrap justify-around items-center">
+        <motion.div
+          variants={child}
+          className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
+        >
+          <img
+            className="w-full object-cover h-2/4"
+            src="/HID-APP (1).png"
+            alt=""
+          />
+          <h1 className="text-2xl text-gray-600 font-bold px-3">
+            Full Ecommerce website
+          </h1>
+          <p className="text-gray-600 px-3 pb-3">
+            Build using React, axios, Redux, Syncfusion, php, Codeigniter,MySql
+          </p>
+          <button className="mb-3 py-2 w-24 bg-gray-600 rounded hover:bg-green-400">
+            <a
+              target="blank"
+              href="https://shophub-hum.netlify.app"
+              className="text-white"
+            >
+              Open
+            </a>
+          </button>
+        </motion.div>
         <motion.div
           variants={child}
           className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
