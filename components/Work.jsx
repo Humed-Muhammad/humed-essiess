@@ -81,11 +81,7 @@ const Work = ({ workRef }) => {
           variants={child}
           className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
         >
-          <img
-            className="w-full object-cover h-2/4"
-            src="/bg.png"
-            alt=""
-          />
+          <img className="w-full object-cover h-2/4" src="/bg.png" alt="" />
           <h1 className="text-2xl text-gray-600 font-bold px-3">
             Full Ecommerce website
           </h1>
