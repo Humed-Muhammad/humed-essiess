@@ -84,7 +84,7 @@ const Work = ({ workRef }) => {
         >
           <img
             className="w-full object-cover h-2/4"
-            src="/HID-APP (1).png"
+            src="/bg.png"
             alt=""
           />
           <h1 className="text-2xl text-gray-600 font-bold px-3">
