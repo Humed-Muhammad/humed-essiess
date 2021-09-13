@@ -42,7 +42,7 @@ export default function App() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="cursor-pointer"
         >
-          <FaGit className="text-white font-medium" />
+         <a traget="blank" href="https://github.com/Humed-Muhammad"><FaGit className="text-white font-medium" /></a>
         </motion.a>
         <motion.a
           initial={{ opacity: 0, y: 30 }}
