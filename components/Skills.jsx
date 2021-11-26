@@ -108,12 +108,6 @@ const Skills = ({ skillRef, fadeIn }) => {
             variants={child}
             className="text-base text-gray-600 mt-3 py-2 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-blue-400 hover:text-white"
           >
-            Angular
-          </motion.p>
-          <motion.p
-            variants={child}
-            className="text-base text-gray-600 mt-3 py-2 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-blue-400 hover:text-white"
-          >
             React-Native
           </motion.p>
           <motion.p
