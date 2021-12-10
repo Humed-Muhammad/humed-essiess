@@ -83,7 +83,7 @@ const Work = ({ workRef }) => {
         >
           <img
             className="w-full object-cover h-2/4"
-            src="/Movie Search App.png"
+            src="/EmployeeMg.png"
             alt=""
           />
           <h1 className="text-2xl text-gray-600 font-bold px-3">
