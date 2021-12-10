@@ -81,6 +81,32 @@ const Work = ({ workRef }) => {
           variants={child}
           className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
         >
+          <img
+            className="w-full object-cover h-2/4"
+            src="/Movie Search App.png"
+            alt=""
+          />
+          <h1 className="text-2xl text-gray-600 font-bold px-3">
+            Employee Managment
+          </h1>
+          <p className="text-gray-600 px-3 pb-3">
+            MERN Stack and Docker (Deployed to Heroku and Netlify)
+          </p>
+          <button className="mb-3 py-2 w-24 bg-gray-600 rounded hover:bg-green-400">
+            <a
+              target="blank"
+              href="https://employee-mang.netlify.app/"
+              className="text-white"
+            >
+              Open
+            </a>
+          </button>
+        </motion.div>
+
+        <motion.div
+          variants={child}
+          className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
+        >
           <img className="w-full object-cover h-2/4" src="/bg.png" alt="" />
           <h1 className="text-2xl text-gray-600 font-bold px-3">
             Full Ecommerce website
