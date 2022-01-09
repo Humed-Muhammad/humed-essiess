@@ -51,25 +51,31 @@ const Skills = ({ skillRef, fadeIn }) => {
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
           >
-            Next.js
-          </motion.p>
-          <motion.p
-            variants={child}
-            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
-          >
             Express.js
           </motion.p>
           <motion.p
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
           >
-            Codeigniter
+            Nest
           </motion.p>
           <motion.p
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
           >
-            Python
+            PHP
+          </motion.p>
+          <motion.p
+            variants={child}
+            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
+          >
+            MySQL
+          </motion.p>
+          <motion.p
+            variants={child}
+            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
+          >
+            MongoDB
           </motion.p>
         </div>
         <div className="flex flex-col justify-around items-center h-5/6 w-96">
@@ -90,7 +96,7 @@ const Skills = ({ skillRef, fadeIn }) => {
             variants={child}
             className="text-base text-gray-600 mt-3 py-2 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-blue-400 hover:text-white"
           >
-            SASS
+            Redux
           </motion.p>
           <motion.p
             variants={child}
@@ -100,9 +106,21 @@ const Skills = ({ skillRef, fadeIn }) => {
           </motion.p>
           <motion.p
             variants={child}
+            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
+          >
+           Typescript
+          </motion.p>
+          <motion.p
+            variants={child}
             className="text-base text-gray-600 mt-3 py-2 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-blue-400 hover:text-white"
           >
             React
+          </motion.p>
+          <motion.p
+            variants={child}
+            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
+          >
+            Next.js
           </motion.p>
           <motion.p
             variants={child}
@@ -124,9 +142,9 @@ const Skills = ({ skillRef, fadeIn }) => {
           </motion.p>
           <motion.p
             variants={child}
-            className="text-base text-gray-600 mt-3 py-2 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-blue-400 hover:text-white"
+            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12  transition-all duration-300 easeInOuth-10 cursor-pointer bg-white shadow-lg hover:bg-gray-700 hover:text-white"
           >
-            Semantic-Ui
+            Styled-components
           </motion.p>
         </div>
         <div className="flex flex-col justify-around items-center h-4/6 w-96">
@@ -141,19 +159,13 @@ const Skills = ({ skillRef, fadeIn }) => {
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12 transition-all duration-300 easeInOut h-10 cursor-pointer bg-white shadow-lg hover:bg-red-400 hover:text-white"
           >
-            OpenCV
+            Adobe XD
           </motion.p>
           <motion.p
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12 transition-all duration-300 easeInOut h-10 cursor-pointer bg-white shadow-lg hover:bg-red-400 hover:text-white"
           >
-            Tenserflow
-          </motion.p>
-          <motion.p
-            variants={child}
-            className="text-base text-gray-600 py-2 mt-3 text-center w-8/12 transition-all duration-300 easeInOut h-10 cursor-pointer bg-white shadow-lg hover:bg-red-400 hover:text-white"
-          >
-            Adobe-Photoshop
+            Prisma ORM
           </motion.p>
           <motion.p
             variants={child}
