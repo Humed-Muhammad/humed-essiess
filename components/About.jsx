@@ -10,7 +10,7 @@ const About = ({ aboutRef }) => {
   return (
     <div
       ref={aboutRef}
-      className="About h-screen w-full flex flex-col justify-space-between items-center lg:flex-row xl:w-3/4"
+      className="About h-screen w-full flex flex-col justify-space-between items-center lg:flex-row justify-space-around xl:w-3/4"
     >
       <div className="w-full flex flex-col justify-center items-center md:w-10/12 lg:w-9/12 px-20">
         <h className="text-white text-2xl font-bold md:text-5xl">About Me</h>
