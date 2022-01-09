@@ -31,7 +31,7 @@ const About = ({ aboutRef }) => {
           full potentials.
         </p>
       </div>
-      <div className="w-64 h-64 py-10 lg:py-0">
+      <div className="w-64 h-64 py-10 lg:py-0 mx-10">
         <div className="w-64 h-64 rounded relative border-2 border-solid border-green-300 lg:right-24 xl:right-36 lg:absolute xl:relative">
           <img
             className="w-64 h-64 absolute -top-5 -left-5 rounded"
