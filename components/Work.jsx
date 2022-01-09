@@ -244,6 +244,22 @@ const Work = ({ workRef }) => {
             </a>
           </button>
         </motion.div>
+        <motion.div
+          variants={child}
+          className="flex flex-col justify-between m-3 items-center bg-white text-center w-80 h-96 text-center rounded overflow-hidden border-2 border-white border-solid"
+        >
+          <img
+            className="w-full object-cover h-2/4"
+            src="/delivery.png"
+            alt=""
+          />
+          <h1 className="text-2xl text-gray-600 font-bold px-3">
+            Delivery System Mobile App
+          </h1>
+          <p className="text-gray-600 px-3 pb-3">
+            Built Using React Native
+          </p>
+        </motion.div>
       </div>
     </motion.div>
   );
