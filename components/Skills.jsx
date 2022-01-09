@@ -171,7 +171,7 @@ const Skills = ({ skillRef, fadeIn }) => {
             variants={child}
             className="text-base text-gray-600 py-2 mt-3 text-center w-8/12 transition-all duration-300 easeInOut h-10 cursor-pointer bg-white shadow-lg hover:bg-red-400 hover:text-white"
           >
-            Adobe Illustrator
+            Figma
           </motion.p>
         </div>
       </div>
